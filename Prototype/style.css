@@ -123,3 +123,7 @@ nav[role=navigation] {
                 border: 0;
             }
         }
+header {
+  background-color: grey
+  
+}
