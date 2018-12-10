@@ -11,11 +11,7 @@ body {
 
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
-}
+
 main{
   padding 0 2em 1em 2em;
   margin: 0 auto;
