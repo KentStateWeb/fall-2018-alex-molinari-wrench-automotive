@@ -123,9 +123,9 @@ nav[role=navigation] {
                 border: 0;
             }
         }
-.logo img{
+.logo{
   position: absolute;
   margin-top: 15px;
   margin-left: 10px;
-  align-items: stretch;
+
 }
