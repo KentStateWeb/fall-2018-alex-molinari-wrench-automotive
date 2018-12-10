@@ -143,6 +143,8 @@ nav[role=navigation] {
 
 .carousel-cell {
     width: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .carousel-cell img {
