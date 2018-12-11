@@ -435,9 +435,7 @@ footer{
   padding-right: 5em;
   font-size: 24px;
 }
-ul{
-  list-style: none;
-}
+
 
 /* contact page */
 /* Style inputs with type="text", select elements and textareas */
@@ -523,4 +521,8 @@ input[type=submit]:hover {
 
 .li{
   list-style-type:none;
+}
+}
+ul{
+  list-style-type: none;
 }
