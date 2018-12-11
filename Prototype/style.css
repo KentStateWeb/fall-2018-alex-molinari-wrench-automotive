@@ -509,6 +509,10 @@ input[type=submit]:hover {
   font-size: 20px;
   border-bottom: 1px solid black;
 }
+.helvetica-font{
+  text-transform: none;
+  font-size: 20px;
+}
 
 .common-paragraphs{
 
