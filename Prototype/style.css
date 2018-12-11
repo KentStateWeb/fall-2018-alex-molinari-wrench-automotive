@@ -3,11 +3,17 @@
 }
 body {
 
-  padding: 0em;
+  padding: 1em;
   margin: 0;
   height: 100%;
-
+max-width: 100%;
   font-family: Helvetica, Arial, sans-serif;
+
+}
+label,oilchange{
+  color: black;
+  text-transform: lowercase;
+  margin-left: 20px;
 
 }
 
@@ -18,7 +24,27 @@ main{
 }
 nav{
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
+  text-transform: uppercase;
+
+
+
+
+
+}
+ a{
+  text-decoration: none;
+  color: #919191;
+
+
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 24px;
+
+
+}
+a:hover{
+  font-weight: bold;
+  color: #942A1F;
 
 }
 
@@ -40,6 +66,7 @@ a.menu-link {
     float: left;
     transform: translate(0,0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
 }
 
 .menu-link__label {
@@ -52,7 +79,7 @@ a.menu-link span {
   height: 5px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background-color: #cdcdcd;
   border-radius: 3px; /* Adjust the rounding of the hamburger here */
   z-index: 1;
   transform-origin: 4px 0px;
@@ -119,6 +146,8 @@ nav[role=navigation] {
         @media screen and (min-width:800px) {
             a.menu-link {
                display: none;
+
+
             }
             .js nav[role=navigation] {
                 max-height: none;
@@ -126,28 +155,33 @@ nav[role=navigation] {
             nav[role=navigation] ul {
                 margin: 0 0 0 -0.25em;
                 border: 0;
+
             }
 
             nav[role=navigation]  li {
                 display: inline-block;
                 margin: 0 0.25em;
+
             }
             nav[role=navigation] li a {
                 border: 0;
+
             }
         }
 .logo, header{
   position: absolute;
   margin-top: 4px;
-  margin-left: 20px;
+  margin-left: 30px;
 
 }
 /* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
 
 .carousel-cell {
     width: 100%;
-    padding-top: 1em;
+    padding-top: 0em;
     height: 300px;
+    border-top: 3px solid #942A1F
+
 
 
 
@@ -278,4 +312,166 @@ input.invalid {
   text-align: center;
   background-color: #0b37aa;
   color: white;
+}
+
+/* about page */
+.banner{
+  background-color: #942A1F;
+}
+
+.aboutsubheader{
+  border-top: 2px solid #942A1F;
+  padding-top: 2em;
+}
+.headerbanner{
+  background-color: #942A1F;
+  color: white;
+  padding: 2em;
+  font-size: 24px;
+
+}
+.aboutmain{
+font-family: 'Saira Semi Condensed', sans-serif;
+text-transform: none;
+text-align: center;
+padding-top:1em;
+font-size: 22px;
+padding-right:7em;
+padding-left: 7em;
+}
+.aboutstaff{
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-transform: none;
+}
+
+
+.box2{
+padding: 2em;
+	margin: .25em;
+	background-color: white;
+  justify-content: space-between;
+
+
+}
+.second-row{
+  justify-content:space-between;
+}
+footer{
+  background-color: #0b37aa;
+  padding: 3em;
+  color: white;
+  text-align: center;
+  border-top: 4px solid gold;
+}
+
+.container-1{
+  justify-content: ;
+  display:flex;
+  padding: 10px;
+  width: 30%;
+}
+.container-1 div{
+  border: 1px solid black;
+}
+
+.box{
+	padding: 2em;
+	margin: .25em;
+	background-color: white;
+
+
+
+}
+.about-headers{
+  text-align: center;
+}
+@media screen and (min-width: 650px){
+	.first-row, .second-row{
+		display:flex;
+    text-align: left;
+    padding: 0;
+
+
+	}
+}
+/* Services page */
+@media screen and (min-width: 650px){
+	.first-row-services{
+		display:flex;
+    text-align: center;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+.serviceslist{
+  text-align: left;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-decoration: none;
+  padding: 10em;
+  margin: auto;
+  text-transform: none;
+
+}
+
+.servicesheader{
+  text-transform: capitalize;
+  border-bottom: 3px solid #942A1F;
+
+
+}
+.servicessubheader{
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-transform: none;
+  padding-left: 5em;
+  padding-right: 5em;
+  font-size: 24px;
+}
+ul{
+  list-style: none;
+}
+
+/* contact page */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contactwelcome{
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-transform: none;
+  text-align: center;
+  padding-top:1em;
+  font-size: 22px;
+  padding-right:7em;
+  padding-left: 7em;
+  border-top: 3px solid #942A1F;
 }

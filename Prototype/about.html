@@ -4,27 +4,92 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Page Title Goes Here</title>
     <meta name="description" content="Page Description Goes Here">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
   </head>
   <body>
        <!-- The page content goes here -->
-<header>
-       <img src="images/wrench.svg" alt="Wrench />
-       <h1>Home Page </h1>
+       <header>
 
-
+             <div class="logo"><a href="index.html"><img src="images/wrench.svg" alt="Wrench" width="200"height="100"/></a>
        </header>
 
-
-
        <main>
-         This is the main Content
-         </main>
+       <nav>
+         <a href="#menu" class="menu-link">
+             <div class="menu-link__hamburger">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </div>
+
+         </a>
+
+         <nav id="menu" role="navigation">
+                     <ul>
+
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="#">Products</a></li>
+                         <li><a href="services.html">Services</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                     </ul>
+         </nav>
+        <div class="aboutcontainer" id="about">
+
+             <div class="headerbanner"<h3>We have built a great reputation by providing award winning auto repair services to get you back on the road quickly.
+</h3></div>
+             <div class="aboutmain"<p>No one wants their car to sit in a shop for days or weeks. We employ only ASE Certified Automotive Technicians so you can be sure your vehicle is being repaired by a trained technician.  Wrench Automotive strives to get your car fixed right, as quickly as it can be done and at a fair price. We provide a written estimate to each customer before repair work begins. Wrench has many happy repeat customers. We think that you will enjoy the Wrench service difference
+
+             </p></div>
+           </div>
+
+
+           <mainabout>
+
+             <section class="first-row">
+           		<div class="box">
+           			  <img src="images/friendlymechanic.jpeg" alt="Wrench" width="550" height="350"/>
+           		</div>
+           		<div class="box">
+           			<img src="images/mechanicclipboard.jpg" alt="Wrench" width="550" height="350"/>
+           		</div>
+           	</section>
+
+            <banner class="banner">
+              <h2> Why bring your vehincle to us</h2>
+            </banner>
+
+           <section class="second-row">
+             <div class="box2">
+               <div class="about-headers"><h3>Dave Robinson</h3></div>
+               <div class="about-headers"><h5> Owner</h5></div>
+               <img src="images/daverobinson.jpg" alt="Wrench" width="360"height="225"/>
+             <div class="aboutstaff"><p> Dave started Wrench Automotive with his father, John Robinson, and manages this thriving repair shop today.
+</p></div>
+             </div>
+             <div class="box2">
+               <div class="about-headers"><h3>John Victor</h3></div>
+               <div class="about-headers"><h5>Lead Mechanic</h5></div>
+               <img src="images/johnvictor.jpg" alt="Wrench" width="360"height="225"/>
+               <div class="aboutstaff"><p> John joined Wrench in 1998 and now leads all repairs.</p></div>
+             </div>
+             <div class="box2">
+               <div class="about-headers"><h3> Sally Schultz</h3></div>
+               <div class="about-headers"><h5> Customer Service Coordinator</h5></div>
+               <img src="images/sallyschultz.jpg" alt="Wrench" width="360"height="225"/>
+               <div class="aboutstaff"><p> Sally manages all customer service and appointments, as well as the customer service team.  Our dedicated team is looking forward to serving you!
+</p></div>
+             </div>
+           </section>
+         </mainabout>
 
          <footer>
            This is the
            </footer>
-      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+
   </body>
+<script src="javascript.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </html>

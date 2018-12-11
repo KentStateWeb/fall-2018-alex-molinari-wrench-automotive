@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page Title Goes Here</title>
     <meta name="description" content="Page Description Goes Here">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
   </head>
   <body>
        <!-- The page content goes here -->
 <header>
 
-      <div class="logo"><img src="images/wrench.svg" alt="Wrench" width="200"height="100"/>
-
+      <div class="logo"><a href="index.html"><img src="images/wrench.svg" alt="Wrench" width="200"height="100"/></a>
 </header>
+
 <main>
 <nav>
   <a href="#menu" class="menu-link">
@@ -27,24 +28,24 @@
 
   <nav id="menu" role="navigation">
               <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
+
+                  <li><a href="about.html">About</a></li>
                   <li><a href="#">Products</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contact</a></li>
               </ul>
   </nav>
+<alert>
+
+</alert>
 
 <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'
            >
     <div class="carousel-cell">
               <img src="images/guydetailing.jpg">
+</div>
 
-      <div class ="carousel-caption"
-      <h3> Yo</h3>
-      <p>Whats up everyone</p>
-    </div>
-  </div>
+
 
     <div class="carousel-cell">
               <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/259273/IMG_7315_web-710x450-2.jpg">
@@ -159,7 +160,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> <br></br>
 
-  <label for="appt">Select a time:</label>
+  <label for="appt">Select a time:</label><br></br>
 
   <input type="time" id="appt" name="appt"
          min="9:00" max="18:00" required>
