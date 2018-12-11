@@ -16,6 +16,10 @@ main{
   padding 0 2em 1em 2em;
   margin: 0 auto;
 }
+nav{
+  text-align: center;
+  
+}
 
 a.menu-link {
         float: right;
