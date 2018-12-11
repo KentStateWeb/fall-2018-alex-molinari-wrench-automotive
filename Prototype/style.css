@@ -503,5 +503,12 @@ input[type=submit]:hover {
 }
 
 .common-paragraphs{
-  
+
+}
+.logo-footer{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 30px;
+
+
 }
