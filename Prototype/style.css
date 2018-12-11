@@ -357,11 +357,11 @@ padding: 2em;
   justify-content:space-between;
 }
 footer{
-  background-color: #0b37aa;
+  background-color: #E6E7E8;
   padding: 3em;
   color: white;
   text-align: center;
-  border-top: 4px solid gold;
+  border-bottom: 4px solid #942A1F;
 }
 
 .container-1{
@@ -474,4 +474,11 @@ input[type=submit]:hover {
   padding-right:7em;
   padding-left: 7em;
   border-top: 3px solid #942A1F;
+}
+
+/* footer css */
+.footerinfo{
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: black;
+  font-size: 20px;
 }
