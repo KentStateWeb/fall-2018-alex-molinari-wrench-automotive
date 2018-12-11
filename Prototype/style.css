@@ -292,7 +292,7 @@ input.invalid {
     border-bottom: 2px solid #3d3d3d;
 }
 
-.active, .accordion:hover {
+.accordion.active, .accordion:hover {
     background-color: #632116;
 }
 
